@@ -10,20 +10,20 @@
 </head>
 <body>
     <div id="herobanner">
-    <img src="./images/image-hero-desktop.jpg"/>
     <nav>
-        <div id="nav__left"><img src="./images/logo.svg"/></div>
+        <div id="nav__left"><img src="./images/logo.svg" id="logo"/></div>
         <div id="nav__right">
             <a href="#">About</a>
             <a href="#">Discover</a>
             <a href="#">Get Started</a>
         </div>
     </nav>
+    <img src="./images/image-hero-desktop.jpg" id="img-hero"/>
     </div>
 
     <div id="cases">
         <div id="case1">
-            <img src="./images/logo-mastercraft.svg"/>
+            <img src="./images/logo-mastercraft.svg" id="logo-case1"/>
             <div id="case1__heading">
                 <h1>Mastercraft Bamboo Monitor Riser</h1>
                 <p>A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
@@ -41,25 +41,38 @@
         <div id="case2">
             <div id="case2__numbers">
                 <div id="price">
+                    <div class="case2__text">
                     <h1>$89,914</h1>
                     <p>of $100,000 backed</p>
                 </div>
+                <div class="row"></div>
+                </div>
                 <div id="backers">
+                    <div class="case2__text">
+                        <div class="relative">
                     <h1>5,007</h1>
                     <p>total backers</p>
                 </div>
+                </div>
+                <div class="row"></div>
+                </div>
                 <div id="days">
+                    <div class="case2__text">
+                        <div class="relative">
                     <h1>56</h1>
                     <p>days left</p>
                 </div>
+                </div>
+                </div>
             </div>
+            <div id="progress-bar"></div>
         </div>
         <div id="case3">
             <div id="case3__heading">
                 <h1>About this project</h1>
                 <p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve your posture and make you more comfortable while at work, helping you stay focused on the task at hand.
 
-                    Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer to allow notepads, pens, and USB sticks to be stored under the stand.</p>
+                    <br><br>Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer to allow notepads, pens, and USB sticks to be stored under the stand.</p>
             </div>
             <div id="case1__in__case3">
                 <div class="heading__case__in__case3--active">
@@ -97,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            <div id="case3__in__case3">
+            <div id="case3__in__case3" class="deactivate-display">
                 <div class="heading__case__in__case3--deactivate">
                     <h1>Mahogany Special Edition</h1>
                     <p>Pledge $200 or more</p>
@@ -111,7 +124,7 @@
                         <p>left</p>
                     </div>
                     <div class="right--deactivate">
-                        <button>Out of stock</button>
+                        <button class="btn-deactivate">Out of stock</button>
                     </div>
                 </div>
             </div>
